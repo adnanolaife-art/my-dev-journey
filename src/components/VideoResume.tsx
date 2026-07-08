@@ -8,13 +8,12 @@ export function VideoResume() {
       <div className="container-tight">
         <div className="mx-auto max-w-3xl text-center">
           <p className="text-sm font-semibold uppercase tracking-wider text-coral">Video Resume</p>
-          <h2 className="mt-3 text-3xl font-bold text-foreground sm:text-4xl">
-            Meet me in 60 seconds
-          </h2>
+          <h2 className="mt-3 text-3xl font-bold text-foreground sm:text-4xl">Video Resume</h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            A short video introduction where I share my background, what I'm passionate about, and
-            the kind of work I'm looking for next.
+            Watch my professional introduction and learn more about my skills, experience, and
+            career aspirations.
           </p>
+
         </div>
 
         <div className="mt-12">
