@@ -12,26 +12,18 @@ import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
-    title: "TaskFlow",
+    title: "Oja Ogbomoso",
     description:
-      "A productivity app for managing tasks with drag-and-drop boards, due dates, and progress tracking.",
-    tags: ["React", "TypeScript", "Tailwind"],
+      "A mobile-first local marketplace platform that connects buyers and vendors within Ogbomoso. The platform simplifies product discovery and enables seamless communication through WhatsApp.",
+    tags: ["Vendor listings", "Product discovery", "WhatsApp integration", "Mobile-first"],
     demoUrl: "#",
     repoUrl: "#",
   },
   {
-    title: "WeatherWise",
+    title: "ResQ Naija",
     description:
-      "A clean weather dashboard that fetches live forecast data and displays it in an easy-to-read interface.",
-    tags: ["React", "API Integration", "CSS"],
-    demoUrl: "#",
-    repoUrl: "#",
-  },
-  {
-    title: "Portfolio CMS",
-    description:
-      "A lightweight content management system for developers to publish project case studies and blog posts.",
-    tags: ["Next.js", "Node.js", "MongoDB"],
+      "An emergency response and safety platform designed to help users quickly access emergency services, report incidents, and receive timely assistance.",
+    tags: ["Emergency reporting", "Quick response", "Location-based", "User-friendly"],
     demoUrl: "#",
     repoUrl: "#",
   },
@@ -45,12 +37,13 @@ export function Projects() {
           <p className="text-sm font-semibold uppercase tracking-wider text-coral">Projects</p>
           <h2 className="mt-3 text-3xl font-bold text-foreground sm:text-4xl">Things I've built</h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            A selection of projects that showcase my skills in frontend development, UI design, and
-            problem solving.
+            A selection of projects that showcase my skills in software development, product
+            thinking, and problem solving.
           </p>
         </div>
 
-        <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-12 grid gap-6 sm:grid-cols-2">
+
           {projects.map((project) => (
             <Card
               key={project.title}
