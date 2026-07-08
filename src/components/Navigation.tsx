@@ -45,7 +45,7 @@ export function Navigation() {
           className="text-lg font-bold tracking-tight text-foreground"
           onClick={() => handleNavClick("#home")}
         >
-          Your Name
+          Abdullateef Mujidat Omoyeni
         </Link>
 
         {/* Desktop nav */}
