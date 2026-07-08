@@ -17,7 +17,7 @@ export function Hero() {
       style={{ backgroundColor: "var(--color-cream)" }}
     >
       <div className="container-tight grid items-center gap-12 py-20 lg:grid-cols-2 lg:py-0">
-        <div className="order-2 max-w-2xl lg:order-1">
+        <div className="max-w-2xl">
           <p className="mb-4 text-sm font-semibold uppercase tracking-wider text-coral">
             Junior Software Developer
           </p>
@@ -69,7 +69,7 @@ export function Hero() {
             </a>
           </div>
         </div>
-        <div className="order-1 flex justify-center lg:order-2">
+        <div className="flex justify-center">
           <img
             src={heroImage}
             alt="Illustration of a developer working at a clean desk"
