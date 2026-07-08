@@ -102,15 +102,31 @@ export function Contact() {
               <CardContent className="p-6">
                 <div className="flex items-start gap-4">
                   <div className="grid h-10 w-10 shrink-0 place-items-center rounded-lg bg-primary/10 text-primary">
+                    <User className="h-5 w-5" />
+                  </div>
+                  <div>
+                    <p className="font-medium text-card-foreground">
+                      Abdullateef Mujidat Omoyeni
+                    </p>
+                    <p className="text-sm text-muted-foreground">Junior Software Developer</p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="border-border bg-card">
+              <CardContent className="p-6">
+                <div className="flex items-start gap-4">
+                  <div className="grid h-10 w-10 shrink-0 place-items-center rounded-lg bg-primary/10 text-primary">
                     <Mail className="h-5 w-5" />
                   </div>
                   <div>
                     <p className="font-medium text-card-foreground">Email</p>
                     <a
-                      href="mailto:your.email@example.com"
+                      href="mailto:abdullateef.omoyeni@example.com"
                       className="text-sm text-muted-foreground transition-colors hover:text-primary"
                     >
-                      your.email@example.com
+                      abdullateef.omoyeni@example.com
                     </a>
                   </div>
                 </div>
@@ -121,11 +137,16 @@ export function Contact() {
               <CardContent className="p-6">
                 <div className="flex items-start gap-4">
                   <div className="grid h-10 w-10 shrink-0 place-items-center rounded-lg bg-primary/10 text-primary">
-                    <MapPin className="h-5 w-5" />
+                    <Phone className="h-5 w-5" />
                   </div>
                   <div>
-                    <p className="font-medium text-card-foreground">Location</p>
-                    <p className="text-sm text-muted-foreground">Remote / Your City, Country</p>
+                    <p className="font-medium text-card-foreground">Phone</p>
+                    <a
+                      href="tel:+2340000000000"
+                      className="text-sm text-muted-foreground transition-colors hover:text-primary"
+                    >
+                      +234 000 000 0000
+                    </a>
                   </div>
                 </div>
               </CardContent>
@@ -135,7 +156,7 @@ export function Contact() {
               <p className="font-medium text-card-foreground">Connect</p>
               <div className="flex items-center gap-3">
                 <a
-                  href="https://github.com/yourusername"
+                  href="https://github.com/abdullateef-omoyeni"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="GitHub"
@@ -144,7 +165,7 @@ export function Contact() {
                   <Github className="h-5 w-5" />
                 </a>
                 <a
-                  href="https://linkedin.com/in/yourusername"
+                  href="https://linkedin.com/in/abdullateef-omoyeni"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="LinkedIn"
@@ -152,17 +173,10 @@ export function Contact() {
                 >
                   <Linkedin className="h-5 w-5" />
                 </a>
-                <a
-                  href="https://twitter.com/yourhandle"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Twitter"
-                  className="grid h-10 w-10 place-items-center rounded-full border border-border bg-background text-foreground transition-colors hover:border-primary hover:text-primary"
-                >
-                  <Twitter className="h-5 w-5" />
-                </a>
               </div>
             </div>
+          </div>
+
           </div>
         </div>
       </div>
