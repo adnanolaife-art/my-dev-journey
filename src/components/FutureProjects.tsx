@@ -4,30 +4,23 @@ import { Rocket, Lightbulb, Layers, Globe } from "lucide-react";
 
 const futureProjects = [
   {
-    title: "AI-Powered Study Assistant",
+    title: "Smart Learning Assistant",
     description:
-      "An app that helps students generate quizzes and summaries from their notes using AI.",
+      "An AI-powered educational platform designed to support students with personalized learning experiences.",
     icon: Lightbulb,
-    status: "Planning",
+    status: "Coming Soon",
   },
   {
-    title: "Open Source UI Kit",
+    title: "Community Connect",
     description:
-      "A collection of accessible, reusable components for React and Tailwind CSS projects.",
-    icon: Layers,
-    status: "In Progress",
-  },
-  {
-    title: "Personal Finance Tracker",
-    description:
-      "A simple, privacy-focused tool to track expenses, set budgets, and visualise spending.",
+      "A platform that helps communities share information, opportunities, events, and local resources.",
     icon: Globe,
-    status: "Ideation",
+    status: "Coming Soon",
   },
   {
-    title: "Developer Portfolio Generator",
+    title: "Digital Marketplace Expansion",
     description:
-      "A CLI tool that generates a clean, deployable portfolio site from a JSON config file.",
+      "An enhanced version of Oja Ogbomoso with integrated payments, vendor analytics, and delivery support.",
     icon: Rocket,
     status: "Coming Soon",
   },
@@ -50,7 +43,8 @@ export function FutureProjects() {
           </p>
         </div>
 
-        <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+
           {futureProjects.map((project) => {
             const Icon = project.icon;
             return (
