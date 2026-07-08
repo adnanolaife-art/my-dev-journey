@@ -1,6 +1,6 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Rocket, Lightbulb, Layers, Globe } from "lucide-react";
+import { Rocket, Lightbulb, Globe } from "lucide-react";
 
 const futureProjects = [
   {
