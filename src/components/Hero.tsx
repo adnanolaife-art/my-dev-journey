@@ -25,17 +25,19 @@ export function Hero() {
             Hi, I'm <span className="text-primary">Abdullateef Mujidat Omoyeni</span>
           </h1>
           <p className="mt-6 text-lg leading-relaxed text-muted-foreground">
-            I build clean, accessible, and responsive web applications. I love turning ideas into
-            polished digital experiences with modern tools and thoughtful design.
+            Passionate about building innovative digital solutions that solve real-world problems. I
+            combine creativity, problem-solving, and technology to create user-friendly applications
+            and impactful experiences.
           </p>
           <div className="mt-8 flex flex-wrap items-center gap-3">
             <Button size="lg" onClick={() => scrollTo("#projects")}>
-              View My Work
+              View Projects
             </Button>
             <Button size="lg" variant="outline" onClick={() => scrollTo("#contact")}>
-              Get in Touch
+              Contact Me
             </Button>
           </div>
+
           <div className="mt-10 flex items-center gap-4">
             <a
               href="https://github.com/yourusername"
