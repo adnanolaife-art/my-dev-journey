@@ -45,8 +45,8 @@ export function FutureProjects() {
             What's coming next
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            Ideas I'm currently exploring, building, or planning. These are the
-            projects that keep me excited about learning.
+            Ideas I'm currently exploring, building, or planning. These are the projects that keep
+            me excited about learning.
           </p>
         </div>
 
@@ -62,18 +62,13 @@ export function FutureProjects() {
                   <div className="mb-3 grid h-10 w-10 place-items-center rounded-lg bg-primary/10 text-primary">
                     <Icon className="h-5 w-5" />
                   </div>
-                  <CardTitle className="text-lg text-card-foreground">
-                    {project.title}
-                  </CardTitle>
+                  <CardTitle className="text-lg text-card-foreground">{project.title}</CardTitle>
                   <CardDescription className="text-muted-foreground">
                     {project.description}
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <Badge
-                    variant="outline"
-                    className="border-coral/30 text-coral"
-                  >
+                  <Badge variant="outline" className="border-coral/30 text-coral">
                     {project.status}
                   </Badge>
                 </CardContent>

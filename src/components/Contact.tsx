@@ -26,15 +26,12 @@ export function Contact() {
     <section id="contact" className="section-padding bg-background">
       <div className="container-tight">
         <div className="mx-auto max-w-3xl text-center">
-          <p className="text-sm font-semibold uppercase tracking-wider text-coral">
-            Contact
-          </p>
+          <p className="text-sm font-semibold uppercase tracking-wider text-coral">Contact</p>
           <h2 className="mt-3 text-3xl font-bold text-foreground sm:text-4xl">
             Let's work together
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            Have a project in mind or just want to say hello? I'd love to hear
-            from you.
+            Have a project in mind or just want to say hello? I'd love to hear from you.
           </p>
         </div>
 
@@ -86,12 +83,7 @@ export function Contact() {
                     className="bg-background resize-none"
                   />
                 </div>
-                <Button
-                  type="submit"
-                  size="lg"
-                  className="w-full"
-                  disabled={isSubmitting}
-                >
+                <Button type="submit" size="lg" className="w-full" disabled={isSubmitting}>
                   {isSubmitting ? (
                     "Sending..."
                   ) : (
@@ -133,9 +125,7 @@ export function Contact() {
                   </div>
                   <div>
                     <p className="font-medium text-card-foreground">Location</p>
-                    <p className="text-sm text-muted-foreground">
-                      Remote / Your City, Country
-                    </p>
+                    <p className="text-sm text-muted-foreground">Remote / Your City, Country</p>
                   </div>
                 </div>
               </CardContent>

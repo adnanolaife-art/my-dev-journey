@@ -36,9 +36,7 @@ export function Navigation() {
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled
-          ? "bg-background/80 backdrop-blur-md shadow-sm"
-          : "bg-transparent"
+        scrolled ? "bg-background/80 backdrop-blur-md shadow-sm" : "bg-transparent"
       }`}
     >
       <nav className="container-tight flex h-16 items-center justify-between">
@@ -63,11 +61,7 @@ export function Navigation() {
             </li>
           ))}
           <li>
-            <Button
-              size="sm"
-              onClick={() => handleNavClick("#contact")}
-              className="ml-2"
-            >
+            <Button size="sm" onClick={() => handleNavClick("#contact")} className="ml-2">
               Hire Me
             </Button>
           </li>
@@ -93,10 +87,7 @@ export function Navigation() {
                   </button>
                 </SheetClose>
               ))}
-              <Button
-                className="mt-4 w-full"
-                onClick={() => handleNavClick("#contact")}
-              >
+              <Button className="mt-4 w-full" onClick={() => handleNavClick("#contact")}>
                 Hire Me
               </Button>
             </div>

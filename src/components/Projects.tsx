@@ -1,5 +1,12 @@
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { ExternalLink, Github } from "lucide-react";
 
@@ -35,15 +42,11 @@ export function Projects() {
     <section id="projects" className="section-padding bg-secondary/40">
       <div className="container-tight">
         <div className="mx-auto max-w-3xl text-center">
-          <p className="text-sm font-semibold uppercase tracking-wider text-coral">
-            Projects
-          </p>
-          <h2 className="mt-3 text-3xl font-bold text-foreground sm:text-4xl">
-            Things I've built
-          </h2>
+          <p className="text-sm font-semibold uppercase tracking-wider text-coral">Projects</p>
+          <h2 className="mt-3 text-3xl font-bold text-foreground sm:text-4xl">Things I've built</h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            A selection of projects that showcase my skills in frontend
-            development, UI design, and problem solving.
+            A selection of projects that showcase my skills in frontend development, UI design, and
+            problem solving.
           </p>
         </div>
 
@@ -54,9 +57,7 @@ export function Projects() {
               className="flex flex-col border-border bg-card transition-shadow hover:shadow-md"
             >
               <CardHeader>
-                <CardTitle className="text-xl text-card-foreground">
-                  {project.title}
-                </CardTitle>
+                <CardTitle className="text-xl text-card-foreground">{project.title}</CardTitle>
                 <CardDescription className="text-muted-foreground">
                   {project.description}
                 </CardDescription>
@@ -76,21 +77,13 @@ export function Projects() {
               </CardContent>
               <CardFooter className="flex gap-3">
                 <Button size="sm" variant="default" asChild>
-                  <a
-                    href={project.demoUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  <a href={project.demoUrl} target="_blank" rel="noopener noreferrer">
                     <ExternalLink className="mr-2 h-4 w-4" />
                     Live Demo
                   </a>
                 </Button>
                 <Button size="sm" variant="outline" asChild>
-                  <a
-                    href={project.repoUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  <a href={project.repoUrl} target="_blank" rel="noopener noreferrer">
                     <Github className="mr-2 h-4 w-4" />
                     Code
                   </a>

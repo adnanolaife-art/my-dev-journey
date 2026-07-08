@@ -25,19 +25,14 @@ export function Hero() {
             Hi, I'm <span className="text-primary">Your Name</span>
           </h1>
           <p className="mt-6 text-lg leading-relaxed text-muted-foreground">
-            I build clean, accessible, and responsive web applications. I love
-            turning ideas into polished digital experiences with modern tools
-            and thoughtful design.
+            I build clean, accessible, and responsive web applications. I love turning ideas into
+            polished digital experiences with modern tools and thoughtful design.
           </p>
           <div className="mt-8 flex flex-wrap items-center gap-3">
             <Button size="lg" onClick={() => scrollTo("#projects")}>
               View My Work
             </Button>
-            <Button
-              size="lg"
-              variant="outline"
-              onClick={() => scrollTo("#contact")}
-            >
+            <Button size="lg" variant="outline" onClick={() => scrollTo("#contact")}>
               Get in Touch
             </Button>
           </div>

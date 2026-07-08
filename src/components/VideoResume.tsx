@@ -7,15 +7,13 @@ export function VideoResume() {
     <section id="video-resume" className="section-padding bg-background">
       <div className="container-tight">
         <div className="mx-auto max-w-3xl text-center">
-          <p className="text-sm font-semibold uppercase tracking-wider text-coral">
-            Video Resume
-          </p>
+          <p className="text-sm font-semibold uppercase tracking-wider text-coral">Video Resume</p>
           <h2 className="mt-3 text-3xl font-bold text-foreground sm:text-4xl">
             Meet me in 60 seconds
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            A short video introduction where I share my background, what I'm
-            passionate about, and the kind of work I'm looking for next.
+            A short video introduction where I share my background, what I'm passionate about, and
+            the kind of work I'm looking for next.
           </p>
         </div>
 
@@ -32,8 +30,8 @@ export function VideoResume() {
                       Your video resume will appear here
                     </p>
                     <p className="mt-1 text-sm text-muted-foreground">
-                      Upload your video to a platform like YouTube or Vimeo and
-                      replace this placeholder with the embed link.
+                      Upload your video to a platform like YouTube or Vimeo and replace this
+                      placeholder with the embed link.
                     </p>
                   </div>
                   <Button asChild>
