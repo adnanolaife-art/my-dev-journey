@@ -19,9 +19,8 @@ export function About() {
             A little bit about who I am
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            I'm a junior software developer with a passion for frontend engineering, clean code, and
-            user-centered design. I enjoy the challenge of learning new technologies and applying
-            them to build products that people enjoy using.
+            Junior Software Developer with a growing passion for digital innovation and
+            problem-solving.
           </p>
         </div>
 
@@ -30,17 +29,27 @@ export function About() {
             <h3 className="text-xl font-semibold text-card-foreground">My Story</h3>
             <div className="mt-4 space-y-4 text-muted-foreground">
               <p>
-                I started coding by building small projects that solved problems I cared about. That
-                curiosity turned into a career path, and today I focus on writing maintainable,
-                accessible web applications.
+                I am Abdullateef Mujidat Omoyeni, a Junior Software Developer with a growing
+                passion for software development, digital innovation, and problem-solving. My
+                journey combines experience in education, fashion entrepreneurship, and technology,
+                giving me a unique perspective on creating practical solutions for everyday
+                challenges.
               </p>
               <p>
-                Whether it's crafting a smooth user interface, debugging a tricky state issue, or
-                learning a new framework, I bring enthusiasm and attention to detail to every
-                project.
+                I recently completed an intensive software development training program where I
+                developed skills in web development, user experience design, project planning, and
+                AI-assisted development workflows. I enjoy learning new technologies, collaborating
+                with teams, and turning ideas into functional products.
+              </p>
+              <p>
+                Beyond technology, I have experience as an educator and fashion designer, which has
+                strengthened my communication, creativity, leadership, and attention to detail. My
+                goal is to continue growing as a developer while building products that create
+                meaningful impact in communities.
               </p>
             </div>
           </div>
+
 
           <div className="rounded-2xl border border-border bg-card p-6 sm:p-8">
             <h3 className="text-xl font-semibold text-card-foreground">Skills & Tools</h3>
