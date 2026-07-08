@@ -22,7 +22,7 @@ export function Hero() {
             Junior Software Developer
           </p>
           <h1 className="text-balance text-4xl font-extrabold leading-tight text-foreground sm:text-5xl lg:text-6xl">
-            Hi, I'm <span className="text-primary">Your Name</span>
+            Hi, I'm <span className="text-primary">Abdullateef Mujidat Omoyeni</span>
           </h1>
           <p className="mt-6 text-lg leading-relaxed text-muted-foreground">
             I build clean, accessible, and responsive web applications. I love turning ideas into

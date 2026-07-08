@@ -78,14 +78,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Your Name | Junior Software Developer" },
+      { title: "Abdullateef Mujidat Omoyeni | Junior Software Developer" },
       {
         name: "description",
         content:
           "Portfolio of a junior software developer building clean, modern web applications.",
       },
-      { name: "author", content: "Your Name" },
-      { property: "og:title", content: "Your Name | Junior Software Developer" },
+      { name: "author", content: "Abdullateef Mujidat Omoyeni" },
+      { property: "og:title", content: "Abdullateef Mujidat Omoyeni | Junior Software Developer" },
       {
         property: "og:description",
         content:
