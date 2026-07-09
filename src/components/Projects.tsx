@@ -23,7 +23,8 @@ const groupProjects: Project[] = [
   {
     title: "Oja Ogbomoso",
     problem:
-      "Local vendors in Ogbomoso struggle to reach buyers online. Oja Ogbomoso is a mobile-first marketplace that connects buyers and vendors through simple product listings and WhatsApp chat.",
+      "Many local vendors in Ogbomoso still rely on word-of-mouth and physical stalls to sell their goods, which limits their reach and makes it hard for buyers to discover products. There is no simple, low-cost way for small vendors to list items online and chat directly with customers. Oja Ogbomoso solves this by giving vendors a mobile-first storefront where they can publish products and buyers can reach them instantly via WhatsApp.",
+
     role: "Frontend developer — built the vendor listing UI, product discovery flow, and WhatsApp integration.",
     tags: ["React", "Mobile-first", "WhatsApp API"],
     link: "https://github.com/adnanolaife-art",
@@ -32,8 +33,9 @@ const groupProjects: Project[] = [
   {
     title: "ResQ Naija",
     problem:
-      "Nigerians often can't reach emergency services quickly. ResQ Naija lets users report incidents and request help with one tap, sharing their location instantly.",
+      "During emergencies, many Nigerians waste critical minutes trying to find the right contact number or explaining their location to responders. Poor address systems and delayed communication can slow down rescue efforts. ResQ Naija solves this by letting users report incidents with one tap, automatically share their location, and request help faster when every second counts.",
     role: "Contributor — worked on the incident reporting screen and location handling with the team.",
+
     tags: ["React Native", "Geolocation", "Team Project"],
     link: "https://github.com/adnanolaife-art",
     linkLabel: "View on GitHub",
