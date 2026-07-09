@@ -11,20 +11,21 @@ export function VideoResume() {
           <p className="text-sm font-semibold uppercase tracking-wider text-coral">Video Resume</p>
           <h2 className="mt-3 text-3xl font-bold text-foreground sm:text-4xl">Watch my introduction</h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            A short video where I introduce myself, my skills, and what drives me as a junior
-            software developer.
+            My software development journey — a short video introduction to who I am, what I
+            have built, and what drives me as a junior software developer.
           </p>
         </div>
 
-        <div className="mx-auto mt-10 max-w-4xl">
+        <div className="mx-auto mt-10 max-w-md">
           <Card className="overflow-hidden border-border bg-card shadow-lg">
             <CardContent className="p-0">
-              <div className="relative aspect-video w-full bg-black">
+              <div className="relative aspect-[9/16] w-full bg-black">
                 <iframe
                   className="absolute inset-0 h-full w-full"
-                  src="https://www.youtube.com/embed/e9D7nnoCbQ0?rel=0&playsinline=1"
-                  title="Abdullateef Mujidat Omoyeni — Video Resume"
+                  src="https://www.youtube.com/embed/Wd1E13DMYUA?rel=0&playsinline=1"
+                  title="MY SOFTWARE DEVELOPMENT JOURNEY | MY FIRST VIDEO RÈSUMÈ"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"
                   allowFullScreen
                   loading="lazy"
                 />
