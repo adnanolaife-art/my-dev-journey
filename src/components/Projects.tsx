@@ -33,8 +33,9 @@ const groupProjects: Project[] = [
   {
     title: "ResQ Naija",
     problem:
-      "Nigerians often can't reach emergency services quickly. ResQ Naija lets users report incidents and request help with one tap, sharing their location instantly.",
+      "During emergencies, many Nigerians waste critical minutes trying to find the right contact number or explaining their location to responders. Poor address systems and delayed communication can slow down rescue efforts. ResQ Naija solves this by letting users report incidents with one tap, automatically share their location, and request help faster when every second counts.",
     role: "Contributor — worked on the incident reporting screen and location handling with the team.",
+
     tags: ["React Native", "Geolocation", "Team Project"],
     link: "https://github.com/adnanolaife-art",
     linkLabel: "View on GitHub",
