@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
-import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
+import { ArrowDown, Download, Github, Linkedin, Mail } from "lucide-react";
 import heroImage from "@/assets/hero-illustration.png";
+import cvAsset from "@/assets/cv.pdf.asset.json";
 
 export function Hero() {
   const scrollTo = (href: string) => {
@@ -36,11 +37,17 @@ export function Hero() {
             <Button size="lg" variant="outline" onClick={() => scrollTo("#contact")}>
               Contact Me
             </Button>
+            <Button size="lg" variant="secondary" asChild>
+              <a href={cvAsset.url} target="_blank" rel="noopener noreferrer" download>
+                <Download className="mr-2 h-5 w-5" />
+                Download CV
+              </a>
+            </Button>
           </div>
 
           <div className="mt-10 flex items-center gap-4">
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/adnanolaife-art"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="GitHub"
