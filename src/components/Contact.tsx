@@ -123,10 +123,10 @@ export function Contact() {
                   <div>
                     <p className="font-medium text-card-foreground">Email</p>
                     <a
-                      href="mailto:abdullateef.omoyeni@example.com"
+                      href="mailto:adnanolaife@gmail.com"
                       className="text-sm text-muted-foreground transition-colors hover:text-primary"
                     >
-                      abdullateef.omoyeni@example.com
+                      adnanolaife@gmail.com
                     </a>
                   </div>
                 </div>
@@ -142,10 +142,10 @@ export function Contact() {
                   <div>
                     <p className="font-medium text-card-foreground">Phone</p>
                     <a
-                      href="tel:+2340000000000"
+                      href="tel:+2349064460650"
                       className="text-sm text-muted-foreground transition-colors hover:text-primary"
                     >
-                      +234 000 000 0000
+                      09064460650
                     </a>
                   </div>
                 </div>
