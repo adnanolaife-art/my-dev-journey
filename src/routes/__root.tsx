@@ -94,6 +94,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@yourhandle" },
+      { name: "twitter:title", content: "Abdullateef Mujidat Omoyeni | Junior Software Developer" },
+      { name: "twitter:description", content: "Portfolio of a junior software developer building clean, modern web applications." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/35e4c825-9a0a-412d-8bbf-299a702d05d9/id-preview-3a3b3664--0fc74349-ce42-4ec2-94fb-4645837c5aa0.lovable.app-1783617963700.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/35e4c825-9a0a-412d-8bbf-299a702d05d9/id-preview-3a3b3664--0fc74349-ce42-4ec2-94fb-4645837c5aa0.lovable.app-1783617963700.png" },
     ],
     links: [
       {
